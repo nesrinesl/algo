@@ -1,0 +1,26 @@
+ALGORITHM checkpoint
+VAR
+    lenghtcounter :INTEGER:=0;
+    wordcounter:INTEGER:=1;
+    vowelcounter:INTEGER:=0
+    vowels:ARRAY_OF CHAR:=["a","e","i","o","u","y"];
+
+BEGIN 
+    FOR(i:integer:=0; i < str.lenght();i:=i+1) DO
+    IF (str[i] <>" " or  str[i] <> ".") THEN
+        lenghtcounter:=lenghtcounter +1;
+        lenghtcounter +=;
+        
+    END_IF
+    
+    END_FOR
+    FOR i:INTEGER in str DO
+        IF str[i]=="" THEN
+            wordcounter :=wordcounter+1
+        END_IF
+    END_FOR
+    FOR i in str DO
+        IF (i in vowels) THEN
+            vowelcounter + 1;
+        END_IF
+END
